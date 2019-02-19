@@ -34,7 +34,8 @@
 			self.context.clearRect( 0, 0, self.width, self.height );
 			self.context.lineWidth = 10;
 			self.context.fillStyle = "#000";
-			self.context.strokeStyle = "#d30000";
+			/*self.context.strokeStyle = "#d30000";*/
+            self.context.strokeStyle = "pink";
 			self.context.textAlign = "center";
 			
 			self.context.fillText( self.loaded + "%", self.width * .5, self.height * .5 + 2, self.width );
