@@ -5,6 +5,10 @@ html {
     margin: auto;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body {
     height: 100%;
     overflow: hidden;
