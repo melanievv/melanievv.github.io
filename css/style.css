@@ -57,6 +57,10 @@ nav a {
     font-family: 'Montserrat';
 }
 
+h1 {
+	font-size: 1.6rem;
+}
+
 p {
     font-size: 1.2rem;
 }
