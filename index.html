@@ -40,14 +40,24 @@
         <div id="right_column">
             <section id="pointer_about">
                 <h1>ABOUT</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore aliquam possimus fugit eius, officiis eligendi neque voluptatum laudantium pariatur labore placeat. Laborum voluptatibus animi beatae deleniti consequatur, sed ducimus.</p>
+                <p>Welcome. My name is Melanie. I'm a student Applied Computer Sciences, option Software Development, at UCLL. My inquisitiveness is what led me to IT: The never-ending variety of topics and things to learn. My true passion lies with coding and learning new languages.
+                </p>
+                <p>
+                If I'm not coding I spend my time discovering music. This not only involves expanding and managing my music collection, but also experimenting with Pure Data, modular synthesis and producing-related software such as Ableton.
+                  </p>
                 <p id="cv_button">
                     <a href="">DOWNLOAD CURRICULUM VITAE</a>
                 </p>
             </section>
             <section id="pointer_education">
                 <h1>EDUCATION</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit et aliquam, recusandae dolor. Quis error sapiente nostrum quos minus nemo id necessitatibus perspiciatis ipsum, quasi, dicta voluptatum, eligendi fugiat odio ullam. Repudiandae animi quos veritatis eligendi suscipit maxime et blanditiis quia officia similique totam alias, nulla, eaque qui pariatur. Eum debitis eveniet est, ex vitae ipsam illum quis numquam. Fuga quos, illum ea recusandae dignissimos architecto qui et, eaque reprehenderit vero expedita unde at, voluptatibus vel. Dolorem praesentium autem atque ex ipsam commodi minima totam enim ut in repellat soluta accusantium doloribus eos, saepe debitis natus sequi accusamus sunt aut placeat amet laudantium neque, fuga? Eius, alias unde repudiandae deleniti est debitis sint tempore illo, nesciunt a exercitationem autem expedita harum nulla voluptatum assumenda, culpa tenetur aut dolorem enim dicta ratione doloremque rerum commodi. Aliquid quisquam esse inventore maiores architecto, corporis cumque autem dolor impedit optio, debitis ad pariatur doloribus quia quos eos rem provident magni possimus iusto. Quam expedita voluptatibus, ipsam, facilis harum ut iure esse labore illo sunt consequatur eum debitis dignissimos numquam, deleniti excepturi quas magni cumque repellendus, ad placeat adipisci necessitatibus fuga commodi! Earum odit eius assumenda. At placeat, accusamus nulla incidunt sunt, distinctio qui fuga ab accusantium quidem fugiat ipsam odio ipsum aliquam cum. Maiores soluta ut fuga totam doloremque! Omnis, ab provident minima blanditiis libero, unde, voluptate ex dolorem autem delectus ducimus, similique. Nesciunt aliquid neque illo odio minima optio quas, laboriosam, amet veritatis id ullam libero culpa voluptate sed unde doloribus! Officiis quidem praesentium accusamus, quas repellat. </p>
+                <div>
+                    <ul>
+                        <li>TSO Sociale & Technische Wetenschappen, Heilig-Hart Instituut Heverlee, 2002-2008</li>
+                        <li>Licht-& Geluidstechnieken, Pianofabriek, 2014-2015</li>
+                        <li>Professionele Bachelor Toegepaste Informatica, University College Leuven-Limburg, 2017-...</li>
+                    </ul>
+                </div>
             </section>
             <section id="pointer_skills">
                 <h1>SKILLS</h1>
@@ -81,17 +91,62 @@
                             <h2>C#</h2>
                             <canvas class="bar-circle" width="70" height="70"></canvas>
                         </div>
-
+                        <div class="bar" data-percent="60">
+                            <h2>SQL</h2>
+                            <canvas class="bar-circle" width="70" height="70"></canvas>
+                        </div>
+                                                <div class="bar" data-percent="60">
+                            <h2>Linux</h2>
+                            <canvas class="bar-circle" width="70" height="70"></canvas>
+                        </div>
+                                                <div class="bar" data-percent="60">
+                            <h2>Microsoft Server</h2>
+                            <canvas class="bar-circle" width="70" height="70"></canvas>
+                        </div>
                     </div>
                 </div>
             </section>
             <section id="pointer_projects">
                 <h1>PROJECTS</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias ut rem in ipsam tenetur cum impedit aliquam dolores corporis, obcaecati ab assumenda quas, nobis suscipit omnis, saepe. Nobis blanditiis nesciunt, facere eaque magni est nulla dolor, omnis voluptatum quam id!</p>
+                <div id="gallery_projects">
+                    <div class="project">
+                    <h2>SCJA</h2><a href="https://github.com/ThibautBorn/Projectweek2-JSCA"><img src="img/sjca.png" alt=""></a></div>
+                    <div class="project">
+                       <h2>A DOG'S LIFE</h2><a href="https://github.com/jpelgrims/busit_brno_2019">
+                        <img src="img/adogslife.jpg" alt="">
+                    </a></div>
+                    <div class="project">
+                       <h2>OASIS</h2><a href="#pointer_projects">
+                        <img src="img/poasis.JPG" alt="">
+                    </a></div>
+                </div>
             </section>
             <section id="pointer_contact">
                 <h1>CONTACT</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque corporis, unde nam laudantium repellendus nostrum ducimus.</p>
+                <div id="contact_form">
+                    <form action="">
+                        <p>
+                            <label for="firstName">First Name </label>
+                            <input type="text" id="firstName" name="firstName" placeholder="Your name...">
+                        </p>
+<p>
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Your last name...">
+                        </p>
+
+                        <p>
+                            <label for="email">E-mail Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your e-mail address...">
+                        </p>
+                        <p>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </p>
+                        <p id="button_holder">
+                            <input type="submit" value="SEND">
+                        </p>
+                    </form>
+                </div>
             </section>
         </div>
     </div>
